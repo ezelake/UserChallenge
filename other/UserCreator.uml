@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YTaPECZlEeue05YkGwVP9A" name="UserCreator">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_YYMBYCZlEeue05YkGwVP9A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_uNW94CZlEeue05YkGwVP9A" name="Application">
+    <packagedElement xmi:type="uml:Component" xmi:id="_Au_GACZmEeue05YkGwVP9A" name="Controller">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_ZVjMECZmEeue05YkGwVP9A" client="_Au_GACZmEeue05YkGwVP9A" supplier="_FOySICZmEeue05YkGwVP9A"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_aVPHcCZmEeue05YkGwVP9A" client="_Au_GACZmEeue05YkGwVP9A" supplier="_HReioCZmEeue05YkGwVP9A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_DYmMkCZmEeue05YkGwVP9A" name="User">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_OeJksCZmEeue05YkGwVP9A" client="_DYmMkCZmEeue05YkGwVP9A" supplier="_D7rrgCZmEeue05YkGwVP9A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_D7rrgCZmEeue05YkGwVP9A" name="Phone"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_FOySICZmEeue05YkGwVP9A" name="UserRepository">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_QbKrACZmEeue05YkGwVP9A" client="_FOySICZmEeue05YkGwVP9A" supplier="_DYmMkCZmEeue05YkGwVP9A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HReioCZmEeue05YkGwVP9A" name="JwtCreator"/>
+  </packagedElement>
+</uml:Model>
